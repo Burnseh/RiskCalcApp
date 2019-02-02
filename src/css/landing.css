@@ -1,0 +1,103 @@
+.split {
+   height: 100%;
+   width: 50%;
+   position: fixed;
+   z-index: 0;
+   top: 0;
+   overflow-x: hidden
+}
+
+.left {
+   left: 0;
+   background-color: #1900ff
+}
+
+.right {
+   right: 0;
+   background-color: red
+}
+
+.resetBtn {
+   position: absolute;
+   top: 42%;
+   left: 49%;
+   transform: translate(-38%, -50%);
+   text-align: center;
+   font-size: 38px;
+   text-decoration: none;
+   background-color: #fff;
+   border: none;
+   outline: 0;
+   z-index: 1;
+   width: 60px;
+   height: 60px;
+   border-radius: 50%;
+}
+
+.centered {
+   position: absolute;
+   top: 42%;
+   left: 45%;
+   transform: translate(-40%, -50%);
+   text-align: center;
+   border-style: solid;
+   border-width: 4px;
+   border-color: #fff;
+   width: 55%;
+   height: 46%;
+   font-size: 18px
+}
+
+.centeredBtns {
+   position: absolute;
+   top: 75%;
+   left: 25%;
+   transform: translate(-71%, -25%);
+   text-align: center;
+   display: flex
+}
+
+.landingTitle {
+   position: absolute;
+   top: 10%;
+   left: 47%;
+   font-size: 27px;
+   transform: translate(-40%, -50%)
+}
+
+.armyCountDisplay {
+   font-size: 64px
+}
+
+.minus2Btn {
+   display: flex;
+   flex-direction: row;
+   top: 42%;
+   left: 45%;
+   transform: translate(114%, 20%);
+   margin-left: 9px;
+   width: 80px;
+   height: 80px;
+   padding-left: 15%;
+   text-decoration: none;
+   background-color: #fff;
+   border: none;
+   border-radius: 50%;
+   outline: 0
+}
+
+.minus1Btn {
+   display: flex;
+   flex-direction: row;
+   top: 42%;
+   left: 89%;
+   transform: translate(179%, 20%);
+   width: 80px;
+   height: 80px;
+   padding-left: 15%;
+   text-decoration: none;
+   background-color: #fff;
+   border: none;
+   border-radius: 50%;
+   outline: 0
+}

@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="io.cordova.RiskGameCalc" version="1.0.0">
+    <name>Risk Game Calc</name>
+    <description>
+        A small application for calculating battle outcomes in the boardgame Risk. 
+    </description>
+    <author email="burnseh@outlook.com" href="#">
+        Jamie Burns
+    </author>
+    <content src="index.html" />
+    <icon density="mdpi" height="57" platform="android" src="www/img/myIcon.png" width="57" />
+    <plugin name="cordova-plugin-whitelist" spec="1" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+    </platform>
+    <plugin name="cordova-plugin-screen-orientation" spec="^3.0.1" />
+    <plugin name="cordova-plugin-statusbar" spec="^2.4.2" />
+    <engine name="browser" spec="^5.0.4" />
+    <engine name="android" spec="^7.1.4" />
+</widget>

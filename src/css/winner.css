@@ -1,0 +1,18 @@
+.allWinner {
+   height: 100%;
+   width: 100%;
+   position: fixed;
+   z-index: 1;
+   top: 0;
+   overflow-x: hidden
+}
+
+.winnerText {
+   position: absolute;
+   top: 45%;
+   left: 8%;
+   transform: translate(5%, -40%);
+   font-size: 34px;
+   color: #000;
+   font-family: monospace
+}
